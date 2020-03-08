@@ -1,0 +1,58 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Cores"
+    url: /cores/
+  # - title: "Standard Cell Libraries"
+  #   url: /std_cell_libs/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  - title: "Links"
+    url: /links/
+
+pages:
+  - title: Collective RTL
+    children:
+      - title: "About"
+        url: /about/
+      - title: "Links"
+        url: /links/
+      - title: "Site Map"
+        url: /sitemap/
+      # - title: "Upgrading"
+      #   url: /docs/upgrading/
+
+  - title: Libraries
+    children:
+      - title: "Cores"
+        url: /cores/
+      # - title: "Standard Cell Libraries"
+      #   url: /std_cell_libs/
+  #     - title: "UI Text"
+  #       url: /docs/ui-text/
+  #     - title: "Authors"
+  #       url: /docs/authors/
+  #     - title: "Layouts"
+  #       url: /docs/layouts/
+
+  - title: Posts
+  #   children:
+  #     - title: "Working with Posts"
+  #       url: /docs/posts/
+  #     - title: "Working with Pages"
+  #       url: /docs/pages/
+  #     - title: "Working with Collections"
+  #       url: /docs/collections/
+  #     - title: "Helpers"
+  #       url: /docs/helpers/
+  #     - title: "Utility Classes"
+  #       url: /docs/utility-classes/
+
+  # - title: Extras
+  #   children:
+  #     - title: "Stylesheets"
+  #       url: /docs/stylesheets/
+  #     - title: "JavaScript"
+  #       url: /docs/javascript/
+
