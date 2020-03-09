@@ -77,6 +77,8 @@ sidebar:
 - [CHIPS Alliance](https://chipsalliance.org)
 - [FPGA Libre](http://fpgalibre.sourceforge.net)
 - [Free Model Foundry](https://freemodelfoundry.com)
+- [Chips 4 Makers](https://chips4makers.io)
+- [OpenHW Group](https://www.openhwgroup.org/)
 
 ### Individual Hardware Core Sites
 
@@ -86,6 +88,22 @@ sidebar:
 - [OpenPiton](https://parallel.princeton.edu/openpiton)
 - [Propeller 1](https://www.parallax.com/microcontrollers/propeller-1-open-source)
 - [Oregano Systems 8051 IP Core](https://www.oreganosystems.at/products/ip-cores/8051-ip-core)
+
+### System On Chip  (SoC)
+
+- [Retro-uC](https://gitlab.com/Chips4Makers/Retro-uC)
+- [OpenTitan](https://github.com/lowRISC/opentitan)
+- [Milkymist SoC](https://github.com/m-labs/milkymist)
+- [MiSoC](https://github.com/m-labs/misoc)
+
+### test
+- https://github.com/pulp-platform
+- https://netfpga.org
+- https://github.com/openhwgroup/core-v-cores
+
+## Tools
+
+- http://setedit.sourceforge.net/
 
 ## News and Such
 
@@ -108,6 +126,7 @@ sidebar:
 
 - [TileLink 1.8.1](https://sifive.cdn.prismic.io/sifive/7bef6f5c-ed3a-4712-866a-1a2e0c6b7b13_tilelink_spec_1.8.1.pdf)
 - [Wishbone](https://opencores.org/howto/wishbone)
+- [Advanced Interface Bus](https://github.com/chipsalliance/aib-phy-hardware)
 
 ## Specifications Requiring Licensure / Royalties / Restrictions
 
