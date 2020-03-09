@@ -1,20 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# This config file is meant for settings that affect the entire site, values
+# which are expected to be set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon"
+
 
 # Site Settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 locale                   : "en-US"
 title                    : "Collective RTL"
 title_separator          : "-"
@@ -25,24 +23,12 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # path of logo image to display in the masthead /assets/images/mstile-150x150.png
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+  provider               : # false (default), "staticman", "staticman_v2"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -76,11 +62,14 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
+
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
+
 
 # Social Sharing
 twitter:
@@ -97,9 +86,10 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
+
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : google
   google:
     tracking_id          : UA-160042209-1
     anonymize_ip         : # true, false (default)
@@ -132,6 +122,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+
 # Site Footer
 footer:
   links:
@@ -155,7 +146,6 @@ footer:
       # url:
 
 
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -174,6 +164,7 @@ exclude:
   - CHANGELOG
   - config
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -184,8 +175,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+
 keep_files:
   - .git
   - .svn
@@ -223,7 +213,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # @todo America/Denver  https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -233,6 +223,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+#   - jekyll-remote-theme
+#   - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -259,6 +251,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -288,6 +282,10 @@ collections:
   #   output: true
   #   permalink: /:collection/:path/
   #   metadata: Standard Cell Libraries
+
+# email:
+# twitter_username: username
+# github_username: username
 
 # Defaults
 defaults:
@@ -327,101 +325,3 @@ defaults:
       author_profile: false
       share: true
       comments: false
-
-# # Welcome to Jekyll!
-# #
-# # This config file is meant for settings that affect your whole blog, values
-# # which you are expected to set up once and rarely edit after that. If you find
-# # yourself editing this file very often, consider using Jekyll's data files
-# # feature for the data you need to update frequently.
-# #
-# # For technical reasons, this file is *NOT* reloaded automatically when you use
-# # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# # Site settings
-# # These are used to personalize your new site. If you look in the HTML files,
-# # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# # You can create any custom variable you would like, and they will be accessible
-# # in the templates via {{ site.myvariable }}.
-# title: MM
-# email:
-# description: >- # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
-# twitter_username: username
-# github_username: username
-# minimal_mistakes_skin: default
-# search: true
-
-# # Build settings
-# markdown: kramdown
-# remote_theme: mmistakes/minimal-mistakes
-# # Outputting
-# permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-# timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# include:
-#   - _pages
-
-# # Exclude from processing.
-# # The following items will not be processed, by default. Create a custom list
-# # to override the default setting.
-# # exclude:
-# #   - Gemfile
-# #   - Gemfile.lock
-# #   - node_modules
-# #   - vendor/bundle/
-# #   - vendor/cache/
-# #   - vendor/gems/
-# #   - vendor/ruby/
-
-# # Plugins (previously gems:)
-# plugins:
-#   - jekyll-remote-theme
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll-gist
-#   - jekyll-feed
-#   - jemoji
-#   - jekyll-include-cache
-
-# author:
-#   name   : "First Lastname"
-#   avatar : "/assets/images/bio-photo.jpg"
-#   bio    : "My awesome biography constrained to a sentence or two goes here."
-#   links:
-#     - label: "Website"
-#       icon: "fas fa-fw fa-link"
-#       url: "https://"
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
-
-# footer:
-#   links:
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
-
-
-# category_archive:
-#   type: liquid
-#   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/
