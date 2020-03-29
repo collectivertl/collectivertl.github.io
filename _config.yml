@@ -278,10 +278,10 @@ collections:
     output: true
     permalink: /:collection/:path/
     metadata: "Cores"
-  # std_cell_libs:
-  #   output: true
-  #   permalink: /:collection/:path/
-  #   metadata: Standard Cell Libraries
+  std_cell_libs:
+    output: true
+    permalink: /:collection/:path/
+    metadata: "Standard Cell Libraries"
 
 # email:
 # twitter_username: username

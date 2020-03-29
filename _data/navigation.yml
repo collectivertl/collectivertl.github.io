@@ -6,8 +6,8 @@ main:
     url: /posts/
   - title: "Cores"
     url: /cores/
-  # - title: "Standard Cell Libraries"
-  #   url: /std_cell_libs/
+  #- title: "Standard Cell Libraries"
+  #  url: /std_cell_libs/
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Links"
@@ -29,8 +29,8 @@ pages:
     children:
       - title: "Cores"
         url: /cores/
-      # - title: "Standard Cell Libraries"
-      #   url: /std_cell_libs/
+      - title: "Standard Cell Libraries"
+        url: /std_cell_libs/
   #     - title: "UI Text"
   #       url: /docs/ui-text/
   #     - title: "Authors"

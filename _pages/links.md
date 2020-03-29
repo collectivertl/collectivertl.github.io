@@ -16,7 +16,7 @@ sidebar:
 ## Commercial Hardware Core Sites
 
 - [AnySilicon](https://anysilicon.com/)
-- [Design & Reuse](design-reuse.com)
+- [Design & Reuse](https://www.design-reuse.com/)
 
 ## Hardware Description Languages
 
@@ -25,9 +25,9 @@ sidebar:
 - [VHDL](https://en.wikipedia.org/wiki/VHDL)
 - [MyHDL](http://www.myhdl.org)
 - [Chisel](https://chisel.eecs.berkeley.edu)
-- [SpinalHDL](https://github.com/SpinalHDL)
+- [SpinalHDL](https://spinalhdl.github.io/SpinalDoc-RTD/)
 - [CλaSH](https://clash-lang.org)
-- [Migen](https://github.com/m-labs/migen)
+- [Migen](http://m-labs.hk/gateware/migen/)
 - [FμPy](https://fupy.github.io/)
 - [Bluespec](http://wiki.bluespec.com/)
 - [DFiant](https://github.com/DFiantHDL/DFiant/blob/master/README.md)
@@ -83,9 +83,9 @@ sidebar:
 ### Individual Hardware Core Sites
 
 - [PULP Platform](https://pulp-platform.org) - [Source](https://github.com/pulp-platform)
-- [Internet Archive - The Free IP Project]()
+- [Internet Archive - The Free IP Project](https://web.archive.org/web/20040519060445/http://www.free-ip.com/)
 - [MIAOW GPU](http://miaowgpu.org)
-- [OpenPiton](https://parallel.princeton.edu/openpiton)
+- [OpenPiton](https://parallel.princeton.edu/openpiton/)
 - [Propeller 1](https://www.parallax.com/microcontrollers/propeller-1-open-source)
 - [Oregano Systems 8051 IP Core](https://www.oreganosystems.at/products/ip-cores/8051-ip-core)
 
