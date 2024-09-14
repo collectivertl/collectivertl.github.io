@@ -1,17 +1,17 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Blog"
-    url: /posts/
-  - title: "Cores"
-    url: /cores/
+  #- title: "About"
+  #  url: /about/
+  #- title: "Blog"
+  #  url: /posts/
+  #- title: "Cores"
+  #  url: /cores/
   #- title: "Standard Cell Libraries"
   #  url: /std_cell_libs/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Links"
-    url: /links/
+  #- title: "Links"
+  #  url: /links/
 
 pages:
   - title: Collective RTL
